@@ -48,3 +48,10 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=/usr/local/mysql/bin:$PATH
 
+
+
+#### FIG ENV VARIABLES ####
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+

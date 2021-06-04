@@ -68,3 +68,9 @@ fpath=($fpath "/Users/ivan/.zfunctions")
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [[ -f /Users/ivan/Code/CodigoDelSur/traintrack-backend/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/ivan/Code/CodigoDelSur/traintrack-backend/node_modules/tabtab/.completions/slss.zsh
+
+#### FIG ENV VARIABLES ####
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+
