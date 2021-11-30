@@ -74,3 +74,6 @@ fpath=($fpath "/Users/ivan/.zfunctions")
 #### END FIG ENV VARIABLES ####
 
 
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

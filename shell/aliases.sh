@@ -1,5 +1,6 @@
 # Enable aliases to be sudo’ed
-alias sudo='sudo '
+alias sudo="sudo "
+alias please="sudo"
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -31,7 +32,11 @@ alias up='dot package update_all'
 
 # Custom
 alias rematter="cd /Users/ivan/Code/ReMatter/Universe/"
-alias yarn="yarn --ignore-engines"
+# alias yarn="yarn --ignore-engines"
 alias backend="nx run console-backend:start"
+alias backend-debug="nx debug console-backend"
 alias frontend="nx run console-frontend:start"
-alias ios="nx run driver-mobile:run-ios"
+alias ios="nx start driver-mobile"
+alias migrate="nx run console-backend:migrate"
+alias cg="yarn codegen"
+
