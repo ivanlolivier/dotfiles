@@ -1,3 +1,7 @@
+# Fig pre block. Keep at the top of this file.
+export PATH="${PATH}:${HOME}/.local/bin"
+eval "$(fig init bash pre)"
+
 export DOTFILES_PATH="/Users/ivan/.dotfiles"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 export DOTLY_THEME="codely"
@@ -48,10 +52,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=/usr/local/mysql/bin:$PATH
 
-
-
-#### FIG ENV VARIABLES ####
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####
-
+# Fig post block. Keep at the bottom of this file.
+eval "$(fig init bash post)"
 

@@ -32,7 +32,6 @@ alias up='dot package update_all'
 
 # Custom
 alias rematter="cd /Users/ivan/Code/ReMatter/Universe/"
-# alias yarn="yarn --ignore-engines"
 alias backend="nx run console-backend:start"
 alias backend-debug="nx debug console-backend"
 alias frontend="nx run console-frontend:start"
